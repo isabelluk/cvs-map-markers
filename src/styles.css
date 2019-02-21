@@ -1,0 +1,30 @@
+*, body {
+    font-family: Roboto;
+}
+
+.container {
+    text-align: center;
+    padding: 15px;
+    margin: 10px auto;
+}
+
+.csv-input {
+    padding: 10px;
+    display: block;
+    margin: 15px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-form
+{
+    width: 50%;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px ; 
+	padding: 15px;
+	border: 1px solid #007bff;
+	border-radius: 30px;
+	background-color: rgba(255,255,255,0.5);
+	/*#26a69a*/
+}

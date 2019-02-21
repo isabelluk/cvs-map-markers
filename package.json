@@ -3,9 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "bootstrap": "^4.3.1",
+    "prop-types": "^15.7.2",
+    "randomcolor": "^0.5.4",
     "react": "^16.8.2",
+    "react-bootstrap": "^1.0.0-beta.5",
+    "react-cookie": "^3.0.8",
+    "react-csv-reader": "^1.2.2",
     "react-dom": "^16.8.2",
-    "react-scripts": "2.1.5"
+    "react-geocode": "^0.1.2",
+    "react-google-maps": "^9.4.5",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.5",
+    "recompose": "^0.30.0"
   },
   "scripts": {
     "start": "react-scripts start",
