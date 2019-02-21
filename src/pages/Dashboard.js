@@ -80,7 +80,6 @@ class Dashboard extends Component {
 
         history.push(date);
         historyArr.push({filename: filename, date: date, header: result, data: beforePreview, colorMap: JSON.stringify([...colorMap])});
-        console.log(historyArr);
         this.props.cookies.set('history',history);
         this.props.cookies.set(date, {filename: filename, date: date, header: result, data: beforePreview, colorMap: JSON.stringify([...colorMap])}, { path: '/' });
     
@@ -95,7 +94,6 @@ class Dashboard extends Component {
 
     reloadHistory(key) {
         const { historyArr } = this.state;
-        console.log(historyArr[key]);
         this.setState({ beforePreview: '', 
                         afterPreview: historyArr[key].data,
                         header: historyArr[key].header, 

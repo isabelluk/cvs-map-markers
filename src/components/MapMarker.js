@@ -41,7 +41,6 @@ class MapMarker extends Component {
 
     render(){
         const color = this.state.colorMap.get(this.state.category);
-
         return(
             <div>
                 <Marker
